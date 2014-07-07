@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.Web", "Napoleon.Mvc.Web\Napoleon.Mvc.Web.csproj", "{02B51C3F-3BDE-477A-B141-DBBB92387E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.Models", "Napoleon.Mvc.Models\Napoleon.Mvc.Models.csproj", "{2BFBAF76-2BB3-4A69-A7E5-5F044E761D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.Common", "Napoleon.Mvc.Common\Napoleon.Mvc.Common.csproj", "{8BE096C1-8486-4FF5-AA9C-C603F55CD20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.IDALL", "Napoleon.Mvc.IDALL\Napoleon.Mvc.IDALL.csproj", "{8A099C8E-DDDD-4D21-8FBF-403F6C4ED510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.DALL", "Napoleon.Mvc.DALL\Napoleon.Mvc.DALL.csproj", "{80AB7D41-D127-41CA-82CF-05D34EC084CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.IBLL", "Napoleon.Mvc.IBLL\Napoleon.Mvc.IBLL.csproj", "{9827CB3C-FEE5-40AD-8D83-571C94478D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napoleon.Mvc.BALL", "Napoleon.Mvc.BALL\Napoleon.Mvc.BALL.csproj", "{6417E5B6-202A-4E23-ADFA-16230ADBE770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02B51C3F-3BDE-477A-B141-DBBB92387E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B51C3F-3BDE-477A-B141-DBBB92387E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B51C3F-3BDE-477A-B141-DBBB92387E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B51C3F-3BDE-477A-B141-DBBB92387E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFBAF76-2BB3-4A69-A7E5-5F044E761D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFBAF76-2BB3-4A69-A7E5-5F044E761D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFBAF76-2BB3-4A69-A7E5-5F044E761D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFBAF76-2BB3-4A69-A7E5-5F044E761D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE096C1-8486-4FF5-AA9C-C603F55CD20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE096C1-8486-4FF5-AA9C-C603F55CD20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE096C1-8486-4FF5-AA9C-C603F55CD20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE096C1-8486-4FF5-AA9C-C603F55CD20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A099C8E-DDDD-4D21-8FBF-403F6C4ED510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A099C8E-DDDD-4D21-8FBF-403F6C4ED510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A099C8E-DDDD-4D21-8FBF-403F6C4ED510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A099C8E-DDDD-4D21-8FBF-403F6C4ED510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AB7D41-D127-41CA-82CF-05D34EC084CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AB7D41-D127-41CA-82CF-05D34EC084CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AB7D41-D127-41CA-82CF-05D34EC084CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AB7D41-D127-41CA-82CF-05D34EC084CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9827CB3C-FEE5-40AD-8D83-571C94478D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9827CB3C-FEE5-40AD-8D83-571C94478D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9827CB3C-FEE5-40AD-8D83-571C94478D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9827CB3C-FEE5-40AD-8D83-571C94478D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6417E5B6-202A-4E23-ADFA-16230ADBE770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6417E5B6-202A-4E23-ADFA-16230ADBE770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6417E5B6-202A-4E23-ADFA-16230ADBE770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6417E5B6-202A-4E23-ADFA-16230ADBE770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
