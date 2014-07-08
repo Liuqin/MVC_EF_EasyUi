@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,7 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Base_City.cs" />
+    <Compile Include="Models\Base_Company.cs" />
+    <Compile Include="Models\Base_GoodsInfo.cs" />
+    <Compile Include="Models\Base_ManProjects.cs" />
+    <Compile Include="Models\Base_ProjectInfo.cs" />
+    <Compile Include="Models\Base_User.cs" />
+    <Compile Include="Models\BdManageSystemContext.cs" />
+    <Compile Include="Models\Mapping\Base_CityMap.cs" />
+    <Compile Include="Models\Mapping\Base_CompanyMap.cs" />
+    <Compile Include="Models\Mapping\Base_GoodsInfoMap.cs" />
+    <Compile Include="Models\Mapping\Base_ManProjectsMap.cs" />
+    <Compile Include="Models\Mapping\Base_ProjectInfoMap.cs" />
+    <Compile Include="Models\Mapping\Base_UserMap.cs" />
+    <Compile Include="Models\Mapping\Sys_ErrorMap.cs" />
+    <Compile Include="Models\Mapping\Sys_LcodeMap.cs" />
+    <Compile Include="Models\Mapping\Sys_PurviewMap.cs" />
+    <Compile Include="Models\Mapping\Sys_XcodeMap.cs" />
+    <Compile Include="Models\Sys_Error.cs" />
+    <Compile Include="Models\Sys_Lcode.cs" />
+    <Compile Include="Models\Sys_Purview.cs" />
+    <Compile Include="Models\Sys_Xcode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

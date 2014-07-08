@@ -28,5 +28,7 @@ namespace Napoleon.Mvc.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Napoleon.Mvc.Web.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

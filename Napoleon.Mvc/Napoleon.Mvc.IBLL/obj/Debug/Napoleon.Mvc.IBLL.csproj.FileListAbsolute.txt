@@ -1,0 +1,4 @@
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.IBLL\bin\Debug\Napoleon.Mvc.IBLL.dll
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.IBLL\bin\Debug\Napoleon.Mvc.IBLL.pdb
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.IBLL\obj\Debug\Napoleon.Mvc.IBLL.dll
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.IBLL\obj\Debug\Napoleon.Mvc.IBLL.pdb
