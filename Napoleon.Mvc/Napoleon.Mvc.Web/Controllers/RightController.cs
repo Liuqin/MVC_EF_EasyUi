@@ -13,5 +13,15 @@ namespace Napoleon.Mvc.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Numbers()
+        {
+            return View();
+        }
+
+        public ActionResult Results()
+        {
+            return View();
+        }
     }
 }

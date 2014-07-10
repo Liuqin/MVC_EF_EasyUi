@@ -7,11 +7,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/NpMessage.css" rel="stylesheet" />
+    <script src="~/Content/JS/sea.js" id="seajsnode"></script>
     <title></title>
 </head>
 <body>
     <div>
-    index
+        <input type="submit" value="测试alert" onclick="BtnAlert()" />
+        <input type="submit" value="测试confirm" onclick="alert('123');" />
     </div>
+    <script>
+        function BtnAlert() {
+            seajs.use('NpMessage', function (msg) {
+                msg.Message({
+                    type: 'alert',
+                    msg: '测试seajs'
+                }).show();
+            });
+        }
+    </script>
 </body>
 </html>
