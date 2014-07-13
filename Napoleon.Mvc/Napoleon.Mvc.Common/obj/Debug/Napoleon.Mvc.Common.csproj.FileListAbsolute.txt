@@ -2,3 +2,4 @@ D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Common\bin\Debug
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Common\bin\Debug\Napoleon.Mvc.Common.pdb
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Common\obj\Debug\Napoleon.Mvc.Common.dll
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Common\obj\Debug\Napoleon.Mvc.Common.pdb
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Common\obj\Debug\Napoleon.Mvc.Common.csprojResolveAssemblyReference.cache

@@ -7,3 +7,4 @@ D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Models\bin\Debug
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Models\bin\Debug\EntityFramework.SqlServer.xml
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Models\obj\Debug\Napoleon.Mvc.Models.dll
 D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Models\obj\Debug\Napoleon.Mvc.Models.pdb
+D:\WebForm\Study\GitHub\MVC_EF_EasyUi\Napoleon.Mvc\Napoleon.Mvc.Models\obj\Debug\Napoleon.Mvc.Models.csprojResolveAssemblyReference.cache
