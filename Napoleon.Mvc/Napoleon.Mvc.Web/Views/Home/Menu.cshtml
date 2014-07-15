@@ -7,45 +7,63 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="../../Content/Css/Left.css" rel="stylesheet" />
+    <link href="../../Content/Css/Index.css" rel="stylesheet" />
+    <script src="../../Content/JS/sea.js"></script>
     <title></title>
 </head>
-<body style="background-color: wheat;">
-    <ul class="nav">
-        <li class="nav action active">
-            <div class="top"><span class="left"></span><span class="center"></span><span class="right"></span></div>
-            <ul class="nav submenu">
+<body style="overflow-x: hidden;">
+    <dl id="LeftMenu" class="nav">
+        <dd>
+            <div class="icon" style="background: url('../../Content/Image/android.png') no-repeat"></div>
+            <div class="title">UI组件</div>
+            <ul class="submenu" style="display: block;">
                 <li><a>1</a></li>
                 <li><a>2</a></li>
                 <li><a>3</a></li>
             </ul>
-        </li>
-        <li class="nav_action">
-            <ul>
-                <li></li>
-                <li></li>
+        </dd>
+        <dd>
+            <div class="icon" style="background: url('../../Content/Image/apple.png') no-repeat"></div>
+            <div class="title">Form组件</div>
+            <ul class="submenu" style="display: none;">
+                <li><a>1</a></li>
+                <li><a>1</a></li>
             </ul>
-        </li>
-        <li class="nav_action">
-            <ul>
-                <li></li>
-                <li></li>
+        </dd>
+        <dd>
+            <div class="icon" style="background: url('../../Content/Image/book.png') no-repeat"></div>
+            <div class="title">Grid组件</div>
+            <ul class="submenu" style="display: none;">
+                <li><a>1</a></li>
+                <li><a>1</a></li>
             </ul>
-        </li>
-        <li class="nav_action">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        </dd>
+        <dd>
+            <div class="icon" style="background: url('../../Content/Image/disk.png') no-repeat"></div>
+            <div class="title">Tree组件</div>
+            <ul class="submenu" style="display: none;">
+                <li><a>1</a></li>
+                <li><a>1</a></li>
+                <li><a>1</a></li>
+                <li><a>1</a></li>
             </ul>
-        </li>
-        <li class="nav_action">
-            <ul>
-                <li></li>
-                <li></li>
+        </dd>
+        <dd>
+            <div class="icon" style="background: url('../../Content/Image/copy2.png') no-repeat"></div>
+            <div class="title">Data组件</div>
+            <ul class="submenu" style="display: none;">
+                <li><a>1</a></li>
+                <li><a>1</a></li>
             </ul>
-        </li>
-    </ul>
+        </dd>
+    </dl>
+    <script>
+        seajs.use('Index', function (index) {
+            $(document).ready(function () {
+                $('.submenu li').click(index.SetSubmenu);
+                $('.title').click(index.SlideMenu);
+            });
+        });
+    </script>
 </body>
 </html>

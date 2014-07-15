@@ -1,0 +1,71 @@
+﻿
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10.5pt;
+    font-family: "Open Sans";
+}
+
+/*#region 左边的菜单*/
+.nav, .nav dd {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 200px;
+    overflow: hidden;
+}
+
+.submenu {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+    .submenu li {
+        height: 35px;
+        border-bottom: dotted 2px #F1F1F1;
+        border-right: solid 1px #E5E5E5;
+        cursor: pointer;        
+    }
+
+        .submenu li:hover {
+            color: #3382AF;
+            background: url('../Image/3.png');
+        }
+
+        .submenu li a {
+            display: block;
+            line-height: 35px;
+            padding-left: 50px;
+            background-image: url('../Image/2.png');
+        }
+
+.icon {
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 40px;
+    border: solid 1px #E5E5E5;
+    background-color: #F9F9F9;
+}
+
+    .title:hover {
+        background: url('../Image/1.png');
+        color: #3382AF;
+    }
+
+.active {
+    background-image: url('../Image/4.png');
+}
+/*#endregion*/

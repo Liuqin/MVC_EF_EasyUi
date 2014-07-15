@@ -169,13 +169,27 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Css\Left.css" />
+    <Content Include="Content\Css\Index.css" />
     <Content Include="Content\Css\NpMessage.css" />
+    <Content Include="Content\Image\1.png" />
+    <Content Include="Content\Image\2.png" />
+    <Content Include="Content\Image\3.png" />
+    <Content Include="Content\Image\4.png" />
+    <Content Include="Content\Image\address-book.png" />
+    <Content Include="Content\Image\android.png" />
+    <Content Include="Content\Image\apple.png" />
     <Content Include="Content\Image\background.png" />
+    <Content Include="Content\Image\book.png" />
+    <Content Include="Content\Image\books.png" />
+    <Content Include="Content\Image\bubbles3.png" />
+    <Content Include="Content\Image\copy2.png" />
+    <Content Include="Content\Image\disk.png" />
     <Content Include="Content\Image\false.png" />
     <Content Include="Content\Image\true.png" />
+    <Content Include="Content\JS\Index.js" />
     <Content Include="Content\JS\jquery.js" />
     <Content Include="Content\JS\NpMessage.js" />
+    <Content Include="Content\JS\PublicJs.js" />
     <Content Include="Content\JS\sea-debug.js" />
     <Content Include="Content\JS\sea.js" />
     <Content Include="favicon.ico" />
